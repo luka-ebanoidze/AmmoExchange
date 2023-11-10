@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { Layout } from "./layouts/Layout";
-import { WhyAmmoView } from "./views/WhyAmmoView";
+import  WhyAmmoView  from "./views/WhyAmmoView";
 
 function App() {
   return (

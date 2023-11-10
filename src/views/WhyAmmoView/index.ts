@@ -1,1 +1,1 @@
-export { WhyAmmoView } from "./WhyAmmoView";
+export { default } from "./WhyAmmoView";

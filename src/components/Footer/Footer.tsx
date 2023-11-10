@@ -1,18 +1,20 @@
-import Logo from "./images/Logo.png";
+import Logo from "../../assets/Logo.png";
 
 export function Footer() {
   return (
-    <footer className="w-full h-[293px] bg-[#DFDFDF] flex justify-between p-[100px]">
-      <ul className="w-[393px] h-[123px] font-medium text-[16px] leading-[20.8px] tracking-[0.9px] text-[#747474] flex flex-col gap-[30px] flex-wrap">
-        <li>Home</li>
-        <li>How It Works</li>
-        <li>Why Ammo now</li>
-        <li>FAQs</li>
-      </ul>
-      <span>
-        <img src={Logo} alt="" />
-      </span>
-      <div className="flex flex-col gap-[30px] items-end text-end">
+    <footer className="w-full bg-[#DFDFDF] flex justify-between px-[100px] py-[65px] max-1xl:flex-col max-1xl:items-center max-1xl:gap-[115px]">
+      <div className="flex justify-between w-[670px] max-1xl:flex-col-reverse max-1xl:w-full max-1xl:items-center max-1xl:gap-[60px]">
+        <ul className="min-w-[393px] h-[123px] font-medium text-[16px] leading-[20.8px] tracking-[0.9px] text-[#747474] flex flex-col gap-[30px] flex-wrap">
+          <li>Home</li>
+          <li>How It Works</li>
+          <li>Why Ammo now</li>
+          <li>FAQs</li>
+        </ul>
+        <span>
+          <img src={Logo} alt="" />
+        </span>
+      </div>
+      <div className="flex flex-col gap-[30px] items-end text-end max-1xl:items-center max-1xl:text-center">
         <h3 className="text-[18px] text-[#323232] leading-[27px] font-bold">
           Subscribe to newsletter
         </h3>
