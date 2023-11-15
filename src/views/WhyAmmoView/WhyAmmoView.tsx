@@ -1,17 +1,16 @@
 import scale from "./images/scale.png";
-import WhyAmmoNow from "./images/WhyAmmoNow.png";
 import AmmoMarket from "./images/AmmoMarket.svg";
 import Vector from "./images/Vector 6.png";
 import Prices from "./images/Safari.svg";
 
-import BigHeader from "../../components/BigHeader";
-import SmallHeader from "../../components/SmallHeader";
+import BigHeader from "./components/BigHeader";
+import SmallHeader from "./components/SmallHeader";
 
 const WhyAmmoView = () => (
   <main className="w-full">
     <div className="bg-[#212B39] w-full flex justify-center flex-wrap gap-[57px] pb-[68px] pt-[42px] max-1xl:hidden">
       <div className="flex flex-col justify-center gap-[30px] items-start w-[563px]">
-        <img className="ml-[43px]" src={WhyAmmoNow} alt="Why Ammo Now" />
+        <BigHeader classname="text-white">WHY AMMO NOW</BigHeader>
         <p className="text-[12px] leading-[18px] font-normal text-[#FFFFFF]">
           The US civilian ammunition industry is currently experiencing record
           supply shortages amidst all-time high demand.
@@ -155,7 +154,7 @@ const WhyAmmoView = () => (
             </span>
             Historical data shows that the primary drivers of ammo demand and
             ammo pricing is fear (both real and unsubstantiated) and
-            geo-political events. Global events, local elections, civil
+            geo-political events.Global events, local elections, civil
             polarization, 2nd amendment rhetoric, and uncertainty have and will
             continue to directly influence ammo prices. The USAE is a simple,
             safe, and reliable way to take advantage of this opportunity.

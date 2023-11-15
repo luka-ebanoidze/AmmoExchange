@@ -3,8 +3,8 @@ import Logo from "../../assets/Logo.png";
 export function Footer() {
   return (
     <footer className="w-full bg-[#DFDFDF] flex justify-between px-[100px] py-[65px] max-1xl:flex-col max-1xl:items-center max-1xl:gap-[115px]">
-      <div className="flex justify-between w-[670px] max-1xl:flex-col-reverse max-1xl:w-full max-1xl:items-center max-1xl:gap-[60px]">
-        <ul className="min-w-[393px] h-[123px] font-medium text-[16px] leading-[20.8px] tracking-[0.9px] text-[#747474] flex flex-col gap-[30px] flex-wrap">
+      <div className="flex justify-between w-[52.5%] max-1xl:flex-col-reverse max-1xl:w-full max-1xl:items-center max-1xl:gap-[60px]">
+        <ul className="w-[393px] h-[123px] font-medium text-[16px] leading-[20.8px] tracking-[0.9px] text-[#747474] flex flex-col gap-[30px] flex-wrap max-s1:w-[256px]">
           <li>Home</li>
           <li>How It Works</li>
           <li>Why Ammo now</li>
@@ -24,7 +24,7 @@ export function Footer() {
         </p>
         <span className="relative">
           <input
-            className="w-[393px] rounded-[5px] border-solid border-[1px] py-[11px] pl-3 border-[#DFDFDF]"
+            className="w-[393px] rounded-[5px] border-solid border-[1px] py-[11px] pl-3 border-[#DFDFDF] max-s1:w-[315px]"
             type="email"
             placeholder="E-mail"
           />
